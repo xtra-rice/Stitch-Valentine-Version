@@ -98,7 +98,7 @@ no_button.addEventListener('click', () => {
 yes_button.addEventListener('click', () => {
     // change banner gif path
     let banner = document.getElementById('banner');
-    banner.src = "public/images/yes.gif";
+    banner.src = "StitchValentineCandyHeart.png";
     refreshBanner();
     // hide buttons div
     let buttons = document.getElementsByClassName('buttons')[0];
@@ -150,4 +150,5 @@ function changeLanguage() {
     } else {
         successMessage.textContent = "Yepppie, see you sooonnn :3";
     }
+
 }
