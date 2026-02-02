@@ -69,7 +69,7 @@ no_button.addEventListener('click', () => {
     // Change banner source
     let banner = document.getElementById('banner');
     if (clicks === 0) {
-        banner.src = "no.gif";
+        banner.src = "StitchValentineCandyHeart.png";
         refreshBanner();
     }
     clicks++;
@@ -152,6 +152,7 @@ function changeLanguage() {
     }
 
 }
+
 
 
 
